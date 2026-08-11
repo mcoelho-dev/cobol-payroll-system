@@ -1,0 +1,5 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. PAYROLL.
+       AUTHOR. Miguel Coelho
+
+       ENVIRONMENT DIVISION.
