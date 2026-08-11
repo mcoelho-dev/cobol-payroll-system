@@ -1,5 +1,17 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PAYROLL.
-       AUTHOR. Miguel Coelho
+       PROGRAM-ID. EMPLOYEES.
+       AUTHOR. MIGUEL COELHO.
 
        ENVIRONMENT DIVISION.
+       FILE CONTROL.
+       INPUT-OUTPUT SECTION.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       EMP-ID             PIC 9(4).
+       EMP-NAME           PIC X(30).
+       EMP-BASE-SALARY    PIC 9(7)V99.
+       EMP-EXTRA-HOURS    PIC 9(3).
+       EMP-HOURLY-RATE    PIC 9(5)V99.
+       EMPT-BONUS         PIC 9(7)V99.
+       EMP-HEALTH-PLAN    PIC 9(5)V99.
