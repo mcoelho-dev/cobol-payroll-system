@@ -24,3 +24,7 @@
        01  SUMMARY              PIC X(80).
 
        WORKING-STORAGE SECTION.
+
+       01  EOF                  PIC X VALUE "N".
+       01  BRUTE-SALARY         PIC 9(7)V99.
+       01  INSS-DISCOUNT        PIC 9(5)V99.
