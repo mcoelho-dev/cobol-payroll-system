@@ -28,3 +28,13 @@
        01  EOF                  PIC X VALUE "N".
        01  BRUTE-SALARY         PIC 9(7)V99.
        01  INSS-DISCOUNT        PIC 9(5)V99.
+       01  IRRF-DISCOUNT        PIC 9(5)V99.
+       01  TOTAL-DISCOUNT       PIC 9(7)V99.
+       01  LIQUID-SALARY        PIC 9(7)V99.
+       01  FINAL-OUTPUT         PIC X(80).
+
+       01  IRRF-TABLE.
+           05  IRRF-BRACKET OCCURS 5 TIMES.
+              10  BRACKET-LIMIT    PIC 9(5)V99.
+              10  BRACKET-RATE     PIC 9(2)V99.
+              10  BRACKET-DEDUCT   PIC 9(5)V99.
